@@ -16,6 +16,7 @@ object floki {
     armaActual.usar()
     elemento.recibirAtaque(armaActual.potencia())
   }
+  method cualEsElArmaActual() { return armaActual } 
 }
 
 object mario {
